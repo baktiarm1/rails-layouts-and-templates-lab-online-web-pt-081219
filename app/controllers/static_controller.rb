@@ -1,6 +1,5 @@
-class StaticController < ActionController::Base
+class StaticController < ApplicationController 
+def home
+end
 
-def home 
-end 
-
-end 
+end
