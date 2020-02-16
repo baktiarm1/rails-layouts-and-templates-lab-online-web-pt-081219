@@ -1,3 +1,16 @@
-class StoreAdminController < ActionController::Base 
+class StoreAdminController < ActionController::Base
+  layout 'admin'
+
+  def home 
+  end 
+
+  def order 
+    render :layout => "order_administration"
+  end
+
+  def invoice
+    render :layout => false
+  end
+    
 
 end 
